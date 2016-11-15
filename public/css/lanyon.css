@@ -568,7 +568,7 @@ a.pagination-item:hover {
   border-radius: 75px;
   -webkit-border-radius: 75px;
   -moz-border-radius: 75px;
-  background: url('public/me.jpg') no-repeat;
+  background: url('/public/me.jpg') no-repeat;
   background-size: contain;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
