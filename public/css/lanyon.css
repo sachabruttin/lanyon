@@ -570,7 +570,7 @@ a.pagination-item:hover {
   -moz-border-radius: 75px;
   background: url('/public/me.jpg') no-repeat;
   background-size: contain;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  box-shadow: 0 0 8px rgba(255, 255, 255, .6);
+  -webkit-box-shadow: 0 0 8px rgba(255, 255, 255, .6);
+  -moz-box-shadow: 0 0 8px rgba(255, 255, 255, .6);
 }
