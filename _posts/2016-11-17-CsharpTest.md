@@ -3,16 +3,15 @@ layout: post
 title: C# Test
 ---
 
-### Hello C##
+### Hello C'##
 
 {% highlight cs %}
-
-        protected override async void OnEntityChanged()
-        {
-          base.OnEntityChanged();
+protected override async void OnEntityChanged()
+  {
+    base.OnEntityChanged();
           
-          if (Entity != null)            
-            {
+          if (Entity != null)
+          {
               await LoadObject();
               await LoadTakedOutItem();
               this.RaisePropertyChanged(x => x.BankingAccount);
@@ -26,11 +25,11 @@ title: C# Test
                     {
                       if (e.PropertyName == "NocSufix")
                       {
-                          await LoadObject();                        
-                          await LoadTakedOutItem();                        
+                          await LoadObject();
+                          await LoadTakedOutItem();
                           this.RaisePropertyChanged(x => x.BankingAccount); 
-                          this.RaisePropertyChanged(x => x.IsObjectLoaded);              
-                          this.RaisePropertyChanged(x => x.IsIssuePrintingEnabled);   
+                          this.RaisePropertyChanged(x => x.IsObjectLoaded);
+                          this.RaisePropertyChanged(x => x.IsIssuePrintingEnabled);
                           this.RaisePropertyChanged(x => x.IsBlueFolderPrintingEnabled); 
                       }
                       
