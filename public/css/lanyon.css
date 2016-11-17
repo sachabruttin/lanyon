@@ -575,3 +575,8 @@ a.pagination-item:hover {
   -webkit-box-shadow: 0 0 8px rgba(255, 255, 255, .6);
   -moz-box-shadow: 0 0 8px rgba(255, 255, 255, .6);
 }
+
+.flexible-box {
+  display: flex;
+  justify-content: space-around;
+}
