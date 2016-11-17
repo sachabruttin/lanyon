@@ -7,7 +7,7 @@ relative_permalinks: false
 # Setup
 title:               sacha.bruttin
 tagline:             'in my room'
-description:         'Lead Consultant Microsoft Productivity<br/><a href="https://www.blue-infinity.com" target="_blank">blue-infinity</a>'
+description:         'Hi, my name is Sacha Bruttin and I help people and companies to move to the cloud. I am currently Lead Consultant Microsoft Productivity at <a href="https://www.blue-infinity.com" target="_blank">blue-infinity</a>'
 url:                 https://www.bruttin.com
 baseurl:             ''
 paginate:            5
