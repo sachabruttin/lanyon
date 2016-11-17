@@ -17,6 +17,7 @@ tagline:             'in my room'
 description:         'Hi, my name is Sacha Bruttin and I help people and companies to move to the cloud. I am currently Lead Consultant Microsoft Productivity at <a href="https://www.blue-infinity.com" target="_blank">blue-infinity</a>'
 url:                 https://www.bruttin.com
 paginate:            5
+paginate_path:       "blog/page:num"
 
 # About/contact
 author:
@@ -39,7 +40,7 @@ baseurl: "https://sachabruttin.github.io"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-permalink: /:title/
+#permalink: /:title/
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
