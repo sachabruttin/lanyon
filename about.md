@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permmalink: /about/
 ---
 
 I am a .NET enthousiast since 2002. 
