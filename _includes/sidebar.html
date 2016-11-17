@@ -7,6 +7,22 @@
   
   <div class="sidebar-item">
     <div class="circular"></div>
+    
+    <div class="flexible-box">
+      {% if site.author.email %}
+      <a href="mailto:{{site.author.email}}"><i class="fa fa-envelope"></i></a>
+      {% endif %}
+      {% if site.author.linkedin %}
+      <a href="https://in.linkedin.com/{{site.author.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
+      {% endif %}
+      {% if site.author.github %}
+      <a href="https://github.com/{{site.author.github}}" target="_blank"><i class="fa fa-github"></i></a>
+      {% endif %}
+      {% if site.author.twitter %} 
+      <a href="https://twitter.com/@{{site.author.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
+      {% endif %}
+    </div>
+    
   </div>
   
   <div class="sidebar-item">
@@ -35,24 +51,6 @@
     -->
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
-
-  <div class="flexible-box">
-      {% if site.author.email %}
-      <a href="mailto:{{site.author.email}}"><i class="fa fa-envelope"></i></a>
-      {% endif %}
-      
-      {% if site.author.linkedin %}
-      <a href="https://in.linkedin.com/{{site.author.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a>
-      {% endif %}
-      
-      {% if site.author.github %}
-      <a href="https://github.com/{{site.author.github}}" target="_blank"><i class="fa fa-github"></i></a>
-      {% endif %}
-        
-      {% if site.author.twitter %} 
-      <a href="https://twitter.com/@{{site.author.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
-      {% endif %}
-  </div>
   
   <div class="sidebar-item">
     <p>
