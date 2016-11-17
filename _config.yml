@@ -39,7 +39,7 @@ baseurl: "https://sachabruttin.github.io"
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-#permalink: /:title/
+permalink: /:title/
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
