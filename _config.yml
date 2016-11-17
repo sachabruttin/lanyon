@@ -16,7 +16,7 @@ title:               sacha.bruttin
 tagline:             'in my room'
 description:         'Hi, my name is Sacha Bruttin and I help people and companies to move to the cloud. I am currently Lead Consultant Microsoft Productivity at <a href="https://www.blue-infinity.com" target="_blank">blue-infinity</a>'
 url:                 https://www.bruttin.com
-paginate:            5
+paginate:            3
 paginate_path:       "blog/page:num"
 
 # About/contact
