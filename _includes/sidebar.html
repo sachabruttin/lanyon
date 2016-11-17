@@ -37,6 +37,14 @@
   </nav>
 
   <div class="sidebar-item">
+    <ul class="list-unstyled contact-list">
+      {% if site.author.email %}
+      <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.author.email}}">{{site.author.email}}</a></li>
+      {% endif %}
+    </ul>
+  </div>
+  
+  <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
