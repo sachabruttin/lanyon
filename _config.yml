@@ -7,7 +7,7 @@ relative_permalinks: false
 # Setup
 title:               sacha.bruttin
 tagline:             'in my room'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         'Lead Consultant Microsoft Productivity, <a href="https://www.blue-infinity.com" target="_blank">blue-infinity</a>'
 url:                 https://www.bruttin.com
 baseurl:             ''
 paginate:            5
@@ -17,6 +17,9 @@ author:
   name:              Sacha Bruttin
   url:               https://twitter.com/sachabruttin
   email:             sacha@bruttin.com
+  linkedin:          sachabruttin
+  twitter:           sachabruttin
+  github:            sachabruttin
 
 # Custom vars
 version:             1.0.0
