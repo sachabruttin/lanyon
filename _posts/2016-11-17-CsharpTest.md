@@ -3,7 +3,7 @@ layout: post
 title: C# Test
 ---
 
-### Hello C'#'
+Hello C#
 
 {% highlight cs %}
     protected override async void OnEntityChanged()
