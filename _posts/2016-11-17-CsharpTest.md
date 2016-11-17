@@ -5,7 +5,7 @@ title: C# Test
 
 ### Hello C'#'
 
-
+{% highlight cs %}
     protected override async void OnEntityChanged()
     {
       base.OnEntityChanged();
@@ -42,4 +42,4 @@ title: C# Test
              };
         }
     }
-
+{% endhighlight %}
