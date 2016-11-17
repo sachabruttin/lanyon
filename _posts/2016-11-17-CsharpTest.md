@@ -5,9 +5,9 @@ title: C# Test
 
 ### Hello C'##
 
-{% highlight cs %}
-protected override async void OnEntityChanged()
-  {
+
+    protected override async void OnEntityChanged()
+    {
     base.OnEntityChanged();
           
           if (Entity != null)
@@ -42,4 +42,4 @@ protected override async void OnEntityChanged()
                      };
              }
        }
-{% endhighlight %}
+
