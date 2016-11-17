@@ -15,7 +15,7 @@ google_analytics:
 title:               sacha.bruttin
 tagline:             'in my room'
 description:         'Hi, my name is Sacha Bruttin and I help people and companies to move to the cloud. I am currently Lead Consultant Microsoft Productivity at <a href="https://www.blue-infinity.com" target="_blank">blue-infinity</a>'
-url:                 https://www.bruttin.com
+#url:                 http://localhost:4000
 paginate:            3
 paginate_path:       "/blog/page:num/"
 
@@ -35,12 +35,12 @@ version:             1.0.0
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "https://sachabruttin.github.io"
+baseurl: ""
 
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-#permalink: /:title/
+permalink: /:title/
 
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
