@@ -63,6 +63,7 @@ gems:
   - jemoji
   - jekyll-paginate
   - jekyll-textile-converter
+  - liquid_reading_time
 
 # Exclude these files from your production _site
 exclude:
