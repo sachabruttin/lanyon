@@ -62,9 +62,6 @@ gems:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jemoji
   - jekyll-paginate
-  - jekyll-textile-converter
-  - liquid_reading_time
-  - liquid_pluralize
 
 # Exclude these files from your production _site
 exclude:
