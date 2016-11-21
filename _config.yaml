@@ -30,3 +30,7 @@ disqus: bruttin
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
+
+# Pagination
+paginate: 3
+paginate_path: "/blog/page:num/"
