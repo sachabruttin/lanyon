@@ -1,31 +1,12 @@
 <!DOCTYPE html>
 <html>
-  	<head>
-      <title>{{ site.title }}</title>
-  		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  		<meta name="description" content="" />
-  		<meta name="keywords" content="" />
-  		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-  		<script src="/js/jquery.min.js"></script>
-  		<script src="/js/jquery.poptrox.min.js"></script>
-  		<script src="/js/skel.min.js"></script>
-  		<script src="/js/init.js"></script>
-  		<noscript>
-  			<link rel="stylesheet" href="/css/skel.css" />
-  			<link rel="stylesheet" href="/css/style.css" />
-  			<link rel="stylesheet" href="/css/style-xlarge.css" />
-        <link rel="stylesheet" href="/css/syntax.css" />
-  		</noscript>
-      
-      <link rel="stylesheet" href="/css/syntax.css" />
-  		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
-  	</head>
+  {% include head.html %}
 
 	<body id="top">
 
       <header id="header">
-          <a href="#" class="image avatar"><img src="/public/me.jpg" alt="Sacha Bruttin" /></a>
-          <h1>I am <strong>Sacha Bruttin</strong>, a <br />
+          <a href="{{ site.url }}" class="image avatar"><img src="/public/me.jpg" alt="Sacha Bruttin" /></a>
+          <h1>I am <strong>{{ site.author }}</strong>, a <br />
           Cloud Software Architect specialized<br />
           on Azure &amp; .NET development.</h1>
       </header>
@@ -94,7 +75,7 @@
               {% endif %}
             </ul>
             <ul class="copyright">
-                <li>&copy; Sacha Bruttin</li>
+                <li>&copy; {{ site.author }}</li>
                 <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                 <li>Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a></li>
             </ul>
