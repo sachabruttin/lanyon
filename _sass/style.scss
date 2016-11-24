@@ -1142,3 +1142,36 @@ $size-header-pad:		4em;
 		}
 
 	}
+
+/* Post */
+
+.post {
+  postion: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+.post .post-header .post-title {
+  margine: 0;
+  word-break: initial;
+  overflow: hidder;
+}
+
+.post-header .post-title {
+  word-break: initial
+}
+
+.post-meta {
+  line-height: 1.5em;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.post .post-content {
+  text-rendering: optimizelegibility;
+  letter-spacing: -0.3px;
+  margin-top: 20px;
+  font-weight: 400;
+  overflow: hidden;
+  hypens: auto;
+}
