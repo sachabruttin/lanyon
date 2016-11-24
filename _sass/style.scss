@@ -1180,11 +1180,11 @@ $size-header-pad:		4em;
 /* Tags */
 
 .tags a {
-  border: 1px solid $color-accent-border;
+  border: 1px solid $color-accent-bg;
   border-radius: 20px;
-  color: $color-accent-fg;
+  color: $color-accent-bg;
   display: inline-block;
-  font-size: 0.5rem;
+  font-weight: $font-weight;
   margin: 5px 0;
   padding: 5px 10px;
   text-shadow: none;
