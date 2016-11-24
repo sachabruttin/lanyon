@@ -1164,14 +1164,15 @@ $size-header-pad:		4em;
 .post-meta {
   line-height: 1.5em;
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: $font-weight;
 }
 
 .post .post-content {
   text-rendering: optimizelegibility;
   letter-spacing: -0.3px;
+  font-family: $font-family-post;
   margin-top: 20px;
-  font-weight: 400;
+  font-weight: $font-weight;
   overflow: hidden;
   hypens: auto;
 }
