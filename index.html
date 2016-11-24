@@ -24,17 +24,17 @@ title: Home
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="icon fa-arrow-circle-o-left">Previous</a>
+    <a href="{{ paginator.previous_page_path }}" class="icon fa-arrow-circle-o-left"><label>Previous</label></a>
     {% else %}
-    <span class="icon fa-arrow-circle-o-left">Previous</span>
+    <span class="icon fa-arrow-circle-o-left"><label>Previous</label></span>
     {% endif %}
 
     <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
 
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="icon fa-arrow-circle-o-right">Next</a>
+    <a href="{{ paginator.next_page_path }}" class="icon fa-arrow-circle-o-right"><label>Next</label></a>
     {% else %}
-    <span class="fa-arrow-circle-o-right">Next</span>
+    <span class="fa-arrow-circle-o-right"><label>Next</label></span>
     {% endif %}
   </div>
 </div>
