@@ -1176,3 +1176,17 @@ $size-header-pad:		4em;
   overflow: hidden;
   hypens: auto;
 }
+
+/* Tags */
+
+.tags a {
+  border: 1px solid $color-accent-border;
+  border-radius: 20px;
+  color: $color-accent-fg;
+  display: inline-block;
+  font-size: 0.5rem;
+  margin: 5px 0;
+  padding: 5px 10px;
+  text-shadow: none;
+  white-space: nowrap;
+}
