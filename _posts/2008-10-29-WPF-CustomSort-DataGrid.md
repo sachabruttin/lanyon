@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WPF: Custom sort dans la DataGrid
+title: WPF - Custom sort dans la DataGrid
 tags:
  - WPF
 ---
