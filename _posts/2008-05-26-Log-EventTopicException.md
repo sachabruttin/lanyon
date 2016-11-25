@@ -14,7 +14,7 @@ Mais comment faire lorsque l'application n'est plus sous contrôle du développe
 
 Eh bien en utilisant la classe EventTopicExceptionFormatter qui nous est créée automatiquement par SCSF dans Infrastructure.Library. Il suffit ensuite de configurer un nouveau type d'exception dans EntLib:
 
-{highlight xml}
+{% highlight xml %}
 <exceptionHandling>
   <exceptionPolicies>
     <add name="Default Policy">
@@ -32,6 +32,6 @@ Eh bien en utilisant la classe EventTopicExceptionFormatter qui nous est créée
     </add>  
   </exceptionPolicies>
  </exceptionHandling>
-{end highlight}
+{% endhighlight %}
 
 Et voilà! Maintenant vos logs contiennent toutes les exceptions levées lors de votre event.
