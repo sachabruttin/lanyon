@@ -868,7 +868,7 @@ $size-header-pad:		4em;
 	#header {
 		background-color:		$color-accent2-bg;
 		background-attachment:	scroll,								fixed;
-		background-image:		url('../public/overlay.png'),			url('../public/combat.jpg');
+		background-image:		url('../public/overlay.png'),			url($background-image);
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
