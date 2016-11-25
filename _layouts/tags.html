@@ -2,10 +2,12 @@
 layout: default
 ---
 
+{% assign sortedTags = site.tags | sort: 'title' %}
+
 <div id="main">
   <h2>Tags:</h2>
   <div class="tags"> 
-    {% for tagitem in site.tags | sort %}
+    {% for tagitem in sortedTags %}
     <a href="#{{ tagitem[0] }}">{{ tagitem[0] }}</a>
     {% endfor %}
   </div>
