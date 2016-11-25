@@ -64,8 +64,9 @@ public static class DataGridColumnExtension
   /// <param name="column">The sorted column.</param>
   /// <returns>The sort member path.</returns>
   public static string GetSortMemberPath(this DataGridColumn column)
-  {        
+  {
     string sortPropertyName = column.SortMemberPath;
+
     if (string.IsNullOrEmpty(sortPropertyName))
     {
       DataGridBoundColumn boundColumn = column as DataGridBoundColumn;
@@ -100,7 +101,7 @@ public static class DataGridColumnExtension
   ///     depending of the previous sort direction.
   /// </returns>
   public static ListSortDirection ToggleSortDirection(this DataGridColumn column)
-  {        
+  {
     ListSortDirection sortDirection = ListSortDirection.Ascending;
     ListSortDirection? currentSortDirection = column.SortDirection;
 
