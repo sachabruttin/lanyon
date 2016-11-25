@@ -34,4 +34,4 @@ Eh bien en utilisant la classe EventTopicExceptionFormatter qui nous est créée
  </exceptionHandling>
 {% endhighlight %}
 
-Et voilà! Maintenant vos logs contiennent toutes les exceptions levées lors de votre event.
+Et voilà! Maintenant vos logs contienent toutes les exceptions levées lors de votre event.
