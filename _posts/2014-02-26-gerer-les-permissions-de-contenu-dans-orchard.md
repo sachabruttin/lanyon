@@ -9,7 +9,7 @@ Parfois, il peut-être nécessaire de gérer des permissions sur le contenu de s
 Depuis quelques version, un module existe et fait directement partie du code source. Son nom est "Content Item Permissions" et
 il est décrit comme "Allows item-level front end view permissions.".
 
-Malheureusement, la documentation de ce module est quasi inexistante ou alors je ne l'ai pas trouvée :-( 
+Malheureusement, la documentation de ce module est quasi inexistante ou alors je ne l'ai pas trouvée :confused: 
 En fait, il s’agit d’un Content Part qu’il faut donc ajouter à la définition du ou des Content Types que l’on veut pouvoir sécuriser.
 
 Nous allons donc voir ici comment mettre en place ce module.
