@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Tooltip avec un bord rond
-tags:  
-  - WPF
+tags:
+ - WPF
 ---
 
 Pour ceux qui comme moi cherchent à créer un Tooltip avec des bords arrondis:
