@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SerialSeb: WPF Tips'n'Tricks #8: Use your code-behind for binding
+title: SerialSeb: WPF Tips'n'Tricks 8: Use your code-behind for binding
 tags:
  - WPF
 ---
