@@ -5,7 +5,7 @@ tags:
  - WPF
 ---
 
-Ce billet, (http://blogs.msdn.com/jgoldb/archive/2008/08/26/improving-microsoft-datagrid-ctp-sorting-performance.aspx), nous explique 
+Ce billet, [http://blogs.msdn.com/jgoldb/archive/2008/08/26/improving-microsoft-datagrid-ctp-sorting-performance.aspx], nous explique 
 comment obtenir de meilleures performances lors du tri de la [WPF DataGrid](http://www.codeplex.com/wpf).
 
 Voici une variante qui vous permettra de trier une datagrid liée à un XmlDataProvider.
