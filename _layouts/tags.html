@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign sortedTags = site.tags | sort %}
+{% assign sortedTags = site.tags | capitalize | sort %}
 
 <div id="main">
   <h2>Tags:</h2>
