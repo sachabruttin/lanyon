@@ -13,7 +13,7 @@ layout: default
   </div>
 
   <!-- iterate through all tags on the site -->
-  {% for tagitem in site.tags %}
+  {% for tagitem in sortedTags %}
   <!-- for each tag, create an anchor by using the tag name as an id -->
     <div id="{{ tagitem[0] }}">
       <h3> {{ tagitem[0] }} </h3>
