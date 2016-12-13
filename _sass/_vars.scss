@@ -12,7 +12,7 @@ Helvetica,
 sans-serif;
 $font-family-fixed: 'Inconsolata',
 monospace;
-$font-family-post: 'Merriweather',
+$font-family-post: 'Source Sans Pro',
 serif;
 $font-weight: 400;
 $font-weight-bold: 400;
@@ -25,7 +25,7 @@ $color-border: #efefef;
 $color-border-bg: #f7f7f7;
 $color-border2: #dfdfdf;
 $color-border2-bg: #e7e7e7;
-$color-accent-bg: #7F0000;
+$color-accent-bg: #1570A6;
 $color-accent-fg: mix($color-accent-bg, #ffffff, 25%);
 $color-accent-fg-bold: #ffffff;
 $color-accent-fg-light: mix($color-accent-bg, #ffffff, 40%);
@@ -36,7 +36,7 @@ $color-accent-border2-bg: rgba(255, 255, 255, 0.2);
 $color-accent2-bg: #1f1815;
 $color-accent2-fg: rgba(255, 255, 255, 0.5);
 $color-accent2-fg-bold: #ffffff;
-$color-accent2-fg-light: rgba(255, 255, 255, 0.4);
+$color-accent2-fg-light: rgb(255, 255, 255);
 $color-accent2-border: rgba(255, 255, 255, 0.25);
 $color-accent2-border-bg: rgba(255, 255, 255, 0.075);
 $color-accent2-border2: rgba(255, 255, 255, 0.5);

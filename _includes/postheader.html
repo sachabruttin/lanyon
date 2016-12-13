@@ -1,0 +1,13 @@
+<header class="post-header">
+    {% if include.item.url == page.url %}
+    <h1 class="post-title" itemprop="headline">{{ include.item.title }}</h1>
+    {% else %}
+    <h1 class="post-title" itemprop="headline"><a href="{{ include.item.url }}">{{ include.item.title }}</a></h1>
+    {% endif %}
+    <div class="post-meta">
+        <span class="icon fa-calendar"><time datetime="{{ include.item.date | date: "%-d %b %Y" }}" class="post-meta_date">{{ include.item.date | date: "%-d %b %Y" }}</time></span> 
+        {% if include.item.tags.size > 0 %}
+        <span class="icon fa-tags">{% for tag in include.item.tags %}<a class="post-meta_tags" href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
+        {% endif %}
+    </div>
+</header>
