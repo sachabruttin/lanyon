@@ -1087,18 +1087,22 @@
                 }
             }
         }
+
         /* Tags */
         
-        .tags a {
-            border: 1px solid $color-accent-bg;
-            border-radius: 20px;
-            color: $color-accent-bg;
-            display: inline-block;
-            font-weight: $font-weight;
-            margin: 5px 0;
-            padding: 5px 10px;
-            text-shadow: none;
-            white-space: nowrap;
+        .tags {
+            margin: 0 0 1em 0;
+            a {
+                border: 1px solid $color-accent-bg;
+                border-radius: 5px;
+                color: $color-accent-bg;
+                display: inline-block;
+                font-weight: $font-weight;
+                margin: 5px 0;
+                padding: 0px 5px 0px 5px;
+                text-shadow: none;
+                white-space: nowrap;
+            }
         }
         
         .read-more {
@@ -1108,3 +1112,8 @@
         .pagination {
             font-size: 1.2em;
         }
+
+li.none {
+    list-style-type: none; /* on annule la puce par défaut */
+    padding-left: 20px; /* pour éviter la superposition du contenu */
+}
