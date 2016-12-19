@@ -4,10 +4,32 @@
     {% else %}
     <h1 class="post-title" itemprop="headline"><a href="{{ include.item.url }}">{{ include.item.title }}</a></h1>
     {% endif %}
-    <div class="post-meta">
-        <span class="icon fa-calendar"><time datetime="{{ include.item.date | date: "%-d %b %Y" }}" class="post-meta_date">{{ include.item.date | date: "%-d %b %Y" }}</time></span> 
+    <section class="post-meta">
+        <span class="icon fa-calendar"><time datetime="{{ include.item.date | date: "%-d %b %Y" }}" class="post-meta_date">{{ include.item.date | date: "%-d %b %Y" }}</time></span>
         {% if include.item.tags.size > 0 %}
         <span class="icon fa-tags">{% for tag in include.item.tags %}<a class="post-meta_tags" href="/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
         {% endif %}
-    </div>
+    </section>
+    <section class="post-share-links">
+      <span class="share">
+        <div class="share-icons">
+          <a class="icon fa-twitter-square" href="https://twitter.com/intent/tweet?text={{ include.item.title }}&url={{ site.url }}{{ include.item.url }}">
+            <span class="label">Twitter</span>
+          </a>
+          <a class="icon fa-facebook-square" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ include.item.url }}">
+            <span class="label">Facebook</span>
+          </a>
+          <a class="icon fa-linkedin-square" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ include.item.url }}">
+            <span class="label">LinkedIn</span>
+          </a>
+          <a class="icon fa-envelope-square" href="mailto:?subject={{ include.item.title }}&body={{ site.url }}{{ include.item.url }}">
+            <span class="label">Mail</span>
+          </a>
+
+        </div>
+      </span>
+
+
+
+    </section>
 </header>
