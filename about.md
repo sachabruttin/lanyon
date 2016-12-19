@@ -6,10 +6,10 @@ permalink: /about/
 
 I am an experienced Team Leader & Solutions Architect with a passion for shipping high-quality products by empowering development team and culture toward an agile mindset. I bring technical vision and strategy, leading engineering teams to move product, processes and architecture forward.
 
-## Roles
+# Roles
 
 Lead Consultant Microsoft Productivity, [blue-infinity](<https://www.blue-infinity.com>){:target="_blank"}
 
-## Contact me
+# Contact me
 
 [sacha@bruttin.com](mailto:sacha@bruttin.com)
