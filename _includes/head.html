@@ -3,13 +3,9 @@
 
   {% include meta.html %}
 
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
+  <title>{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}</title>
+
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
   <!--[if lte IE 8]><script src="/css/ie/html5shiv.js"></script><![endif]-->
   <script src="/js/jquery.min.js"></script>

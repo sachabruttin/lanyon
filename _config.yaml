@@ -9,7 +9,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Cloud Software Architect specialized
   on Azure &amp; .NET development.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://sachabruttin.github.io" # the base hostname & protocol for your site
+url: "https://www.bruttin.com" # the base hostname & protocol for your site
+enforce_ssl: bruttin.com # https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/
 
 # Social links.
 # Replace the word 'example' with your username if you want to include the icon in the left sidebar
