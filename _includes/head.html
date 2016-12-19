@@ -6,6 +6,7 @@
   <title>{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}</title>
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  <link href='{{ site.url }}{{ page.url }}feed.xml' rel='alternate' type='application/atom+xml'>
 
   <!--[if lte IE 8]><script src="/css/ie/html5shiv.js"></script><![endif]-->
 
