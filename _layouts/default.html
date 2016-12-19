@@ -84,6 +84,15 @@
                 </a>
               </li>
               {% endif %}
+
+              {% if site.feedburner %}
+              <li>
+                <a href="http://feeds.feedburner.com/{{ site.feedburner }}" class="icon fa-rss">
+                  <span class="label">RSS</span>
+                </a>
+              </li>
+              {% endif %}
+
             </ul>
             <ul class="copyright">
                 <li>&copy; {{ site.author }}</li>
