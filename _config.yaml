@@ -59,6 +59,7 @@ gems:
   - jekyll-paginate
   - jekyll-mentions
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Mentions
 jekyll-mentions: https://twitter.com

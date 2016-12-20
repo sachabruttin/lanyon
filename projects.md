@@ -2,6 +2,8 @@
 layout: page
 title: Projects
 permalink: /projects/
+redirect_from:
+ - /tpg-8
 ---
 
 # [TPG Lite](http://www.windowsphone.com/s?appid=bbc8c900-c9ac-43ce-a14b-aa2b01f03345){:target="_blank"}

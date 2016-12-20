@@ -3,6 +3,9 @@ layout: post
 title: Les templates de contrôle
 tags:
  - WPF
+redirect_from:
+ - /My-Blog/les-templates-de-contrôle
+ - /les-templates-de-contrôle
 ---
 
 Un très bon article qui décrit comment customizer les contrôles WPF.

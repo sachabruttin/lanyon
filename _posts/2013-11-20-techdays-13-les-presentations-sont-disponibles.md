@@ -5,6 +5,8 @@ author: Sacha Bruttin
 tags:
  - Techdays
  - Windows 8
+redirect_from:
+ - /techdays-13-les-presentations-sont-disponibles
 ---
 
 Les présentations des TechDays 13 qui ont eu lieu à Lausanne sont maintenant disponibles en ligne.

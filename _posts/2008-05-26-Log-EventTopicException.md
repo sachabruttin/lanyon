@@ -4,6 +4,9 @@ title: Logger les exceptions de type EventTopicException
 tags:
  - SCSF
  - Enterprise Library
+redirect_from:
+ - /My-Blog/logger-les-exceptions-de-type-eventtopicexception
+ - /logger-les-exceptions-de-type-eventtopicexception
 ---
 
 Lorsque l'on utilise le SCSF/CAB, il arrive parfois que l'on se retrouve confronté à des exceptions quelques peux obscure du genre 'One or more exceptions occurred while firing the topic ....' .
@@ -20,16 +23,16 @@ Eh bien en utilisant la classe EventTopicExceptionFormatter qui nous est créée
     <add name="Default Policy">
     <exceptionTypes>
       <add type="Microsoft.Practices.CompositeUI.EventBroker.EventTopicException, Microsoft.Practices.CompositeUI, Version=1.0.51205.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-          postHandlingAction="NotifyRethrow" name="EventTopicException">          
-          <exceptionHandlers>            
+          postHandlingAction="NotifyRethrow" name="EventTopicException">
+          <exceptionHandlers>
             <add logCategory="General" eventId="100" severity="Error" title="GMS Exception Handling"
-                 formatterType="YourNamespace.Infrastructure.Library.EntLib.EventTopicExceptionFormatter, Infrastructure.Library"              
-                 priority="0" type="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.LoggingExceptionHandler, Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"              
-                 name="Logging Handler" />          
+                 formatterType="YourNamespace.Infrastructure.Library.EntLib.EventTopicExceptionFormatter, Infrastructure.Library"
+                 priority="0" type="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.LoggingExceptionHandler, Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                 name="Logging Handler" />
           </exceptionHandlers>
       </add>
     </exceptionTypes>
-    </add>  
+    </add>
   </exceptionPolicies>
  </exceptionHandling>
 {% endhighlight %}
