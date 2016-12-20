@@ -2,14 +2,14 @@
 layout: default
 ---
 <div id="main">
-    <article class="post" itemtype="http://schema.org/BlogPosting" itemscope="">
-          {% include postheader.html item=page %}
-      <section class="post-content" itemprop="articleBody">
-          {{ content }}
-      </section>
+  <article class="post" itemtype="http://schema.org/BlogPosting" itemscope="">
+    {% include postheader.html item=page %}
+    <section class="post-content" itemprop="articleBody">
+      {{ content }}
+    </section>
 
-      <div class="post-footer" id="post-footer">
-          {% include disqus.html %}
-      </div>
-    </article>
+    <div class="post-footer" id="post-footer">
+      {% include disqus.html %}
+    </div>
+  </article>
 </div>
