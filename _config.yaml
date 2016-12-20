@@ -1,16 +1,30 @@
 # Site settings
 
-title: in my room # Title of your site
-email: sacha@bruttin.com # Your contant email
-author: Sacha Bruttin #
+baseurl: "" # the subpath of your site, e.g. /blog/
+enforce_ssl: bruttin.com # https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/
 
+email: sacha@bruttin.com # Your contant email
+
+# SEO
+title: in my room # Title of your site
 description: > # this means to ignore newlines until "baseurl:"
   I am Sacha Bruttin, a
   Cloud Software Architect specialized
   on Azure &amp; .NET development.
-baseurl: "" # the subpath of your site, e.g. /blog/
+
 url: "https://www.bruttin.com" # the base hostname & protocol for your site
-enforce_ssl: bruttin.com # https://sheharyar.me/blog/free-ssl-for-github-pages-with-custom-domains/
+author:
+  name: Sacha Bruttin
+  twitter: sachabruttin
+  picture: /public/me.jpg
+twitter:
+  username: sachabruttin
+social:
+  name: Sacha Bruttin
+  links:
+    - https://twitter.com/sachabruttin
+    - https://www.linkedin.com/in/sachabruttin
+    - https://github.com/sachabruttin
 
 # Social links.
 # Replace the word 'example' with your username if you want to include the icon in the left sidebar
@@ -44,6 +58,7 @@ gems:
   - jemoji
   - jekyll-paginate
   - jekyll-mentions
+  - jekyll-seo-tag
 
 # Mentions
 jekyll-mentions: https://twitter.com
