@@ -51,3 +51,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# SAAS Settings
+sass:
+  sass_dir: _sass
+  style: compressed
