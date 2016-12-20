@@ -43,6 +43,10 @@ gems:
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jemoji
   - jekyll-paginate
+  - jekyll-mentions
+
+# Mentions
+jekyll-mentions: https://twitter.com
 
 # Exclude these files from your production _site
 exclude:
@@ -56,3 +60,4 @@ exclude:
 sass:
   sass_dir: _sass
   style: compressed
+
