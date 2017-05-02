@@ -25,7 +25,7 @@ Note that we add the *pages* tag because we are targeting GitHub Pages. This ima
 Now, we need to run Jekyll from the Docker Image:
 
 ```PowerShell
-docker run -it -v %CD%:/srv/jekyll -p 4000:4000  jekyll/jekyll:pages jekyll serve --watch --incremental --force_polling
+docker run --rm --volume=%CD%:/srv/jekyll -p 4000:4000  jekyll/jekyll:pages jekyll serve --watch --incremental --force_polling
 ``` 
 
 You will see something like this:
