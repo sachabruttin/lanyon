@@ -22,10 +22,10 @@ docker pull jekyll/jekyll:pages
 
 Note that we add the *pages* tag because we are targeting GitHub Pages. This image contains the same gems that are available on GitHub Pages.
 
-Now, we need to run Jekyll from the Docker Image. Execute this command by replacing \<local path\> by the absolute path to your Jekyll site on your machine (eg. `C:\MyBlog`).
+Now, we need to run Jekyll from the Docker Image:
 
 ```PowerShell
-docker run -it -v <local path>:/srv/jekyll -p 4000:4000  jekyll/jekyll:pages jekyll serve --watch --incremental --force_polling
+docker run -it -v %CD%:/srv/jekyll -p 4000:4000  jekyll/jekyll:pages jekyll serve --watch --incremental --force_polling
 ``` 
 
 You will see something like this:
