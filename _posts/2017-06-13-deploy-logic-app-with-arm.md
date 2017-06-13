@@ -17,7 +17,7 @@ API Connections cannot be exported yet and is not included in the template. See 
 </div>
 
 If you try to deploy this template in another resource group or tenant, you will have to recreate the connections manually. This could be a huge task if you have a lot of Logic Apps and API Connections.
-<img src="/public/images/2017-06-logic-apps-deploy/connections-missing.png" width="250px" class="align-center" alt="Great Logic Apps"/>
+<img src="/public/images/2017-06-logic-apps-deploy/connections-missing.PNG" width="250px" class="align-center" alt="Great Logic Apps"/>
 
 Hopefully, it is possible to create the API Connections automatically when you deploy your ARM Template.
 
