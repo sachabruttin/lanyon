@@ -16,7 +16,7 @@ The folks of Jekyll have made Docker image available on [Docker Hub](https://hub
 
 First, we will pull the image on our Docker images.
 
-```PowerShell
+```powershell
 docker pull jekyll/jekyll:pages
 ```
 
@@ -24,7 +24,7 @@ Note that we add the *pages* tag because we are targeting GitHub Pages. This ima
 
 Now, we need to run Jekyll from the Docker Image:
 
-```PowerShell
+```powershell
 docker run --rm --volume=$(pwd):/srv/jekyll -p 4000:4000  jekyll/jekyll:pages jekyll serve --watch --incremental --force_polling
 ``` 
 
@@ -47,7 +47,7 @@ Configuration file: /srv/jekyll/_config.yaml
 That's all! Now, browse to [http://localhost:4000](http://localhost:4000) and your site is running.
 So far, so cool. But it is a bit cumbersome to enter all the command arguements every time you want to build your site. Let's welcome Docker Compose. Just create a file called `docker-compose.yml` in your website folder with these contents:
 
-```YAML
+```yaml
 jekyll:
     image: jekyll/jekyll:pages
     command: jekyll serve --watch --incremental --force_polling

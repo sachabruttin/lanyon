@@ -13,7 +13,7 @@ comment obtenir de meilleures performances lors du tri de la [WPF DataGrid](http
 
 Voici une variante qui vous permettra de trier une datagrid liée à un XmlDataProvider.
 
-{% highlight cs %}
+```csharp
 public class XmlDataGridComparer<T> : IComparer where T : IComparable
 {
   private readonly ListSortDirection m_sortDirection;
@@ -54,11 +54,11 @@ public class XmlDataGridComparer<T> : IComparer where T : IComparable
     return (T)Convert.ChangeType(value, typeof(T));
   }
 }
-{% endhighlight %}
+```
 
 Ce code utilise deux méthodes d'extension sur les DataGridColumn que voici:
 
-{% highlight cs %}
+```csharp
 public static class DataGridColumnExtension
 {
   /// <summary>
@@ -117,13 +117,13 @@ public static class DataGridColumnExtension
     return sortDirection;
   }
 }
-{% endhighlight %}
+```
 
 Il ne reste plus qu'à instancier la class XmlDataGridComparer avec le type d'object contenu dans notre colonne dans l'événement Sorting de la DataGrid :
 
-{% highlight cs %}
+```cs
 ListCollectionView lcv = (ListCollectionView)CollectionViewSource.GetDefaultView(dataGrid.ItemsSource);
 lcv.CustomSort = new XmlDataGridComparer<string>(e.Column)
-{% endhighlight %}
+```
 
 Et voilà...

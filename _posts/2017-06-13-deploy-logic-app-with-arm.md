@@ -25,7 +25,7 @@ Hopefully, it is possible to create the API Connections automatically when you d
 
 We will need to add a new resource into our ARM Template file. A basic deployment template for a connection looks like this:
 
-```
+```json
 {
     "type": "Microsoft.Web/connections",
     "apiVersion": "2016-06-01",
@@ -63,7 +63,7 @@ armclient.exe get https://management.azure.com/subscriptions/{subscriptionId}/pr
 From the response, you could see the parameters that you need for your deployment. 
 In our case, for the Azure Storage it is: ```accountName``` and ```accessKey```.
 
-```
+```json
 {
     "properties": {                                                                          
         "name": "azureblob",                                                                   
@@ -98,7 +98,7 @@ In our case, for the Azure Storage it is: ```accountName``` and ```accessKey```.
 
 So we can add our connection resource to the ARM Template, we will start by creating 2 parameters to make our template re-usable and add the API connections into the resources array. 
 
-```
+```json
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
@@ -144,7 +144,7 @@ So we can add our connection resource to the ARM Template, we will start by crea
                 "parameterValues": {
                 }
             }
-        }
+        }]
         // Cut for brevity
     }
 }
@@ -152,7 +152,7 @@ So we can add our connection resource to the ARM Template, we will start by crea
 
 Note, that we did not add any content to the ```parameterValues``` for the Wunderlist connection because it is an OAuth connection. We will then add these 2 new resources as dependencies on ```dependsOn``` for the Logic Apps and reference them on the ```$connections```.
 
-```
+```json
 {
     "resources": [
         // Cut for brevity

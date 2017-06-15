@@ -18,7 +18,8 @@ layout: default
   $(document).ready(function() {
     var cpt = 1;
     $('#main').find('img').each(function () {
-      $(this).wrap('<a data-lightbox="image-' + (++cpt) +'" data-title="'+ $(this).attr('alt') +'" href="'+ $(this).attr('src') +'"></a>')
-      })
+      if (!$(this).hasClass('emoji')) {
+        $(this).wrap('<a data-lightbox="image-' + (++cpt) +'" data-title="'+ $(this).attr('alt') +'" href="'+ $(this).attr('src') +'"></a>');
+      }})
   });
 </script>
