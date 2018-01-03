@@ -6,6 +6,7 @@ tags:
 redirect_from:
  - /My-Blog/les-templates-de-contrôle
  - /les-templates-de-contrôle
+ - /My-Blog/les-templates-de-contr&
 ---
 
 Un très bon article qui décrit comment customizer les contrôles WPF.

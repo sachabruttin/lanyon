@@ -7,6 +7,7 @@ tags:
 redirect_from:
  - /My-Blog/logger-les-exceptions-de-type-eventtopicexception
  - /logger-les-exceptions-de-type-eventtopicexception
+ - /my-blog/logger-les-exceptions-de-type-eventtopicexception
 ---
 
 Lorsque l'on utilise le SCSF/CAB, il arrive parfois que l'on se retrouve confronté à des exceptions quelques peux obscure du genre 'One or more exceptions occurred while firing the topic ....' .

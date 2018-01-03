@@ -6,6 +6,7 @@ tags:
 redirect_from:
  - /My-Blog/wpf-custom-sort-dans-la-datagrid
  - /wpf-custom-sort-dans-la-datagrid
+ - /my-blog/wpf-custom-sort-dans-la-datagrid
 ---
 
 Ce billet, <http://blogs.msdn.com/jgoldb/archive/2008/08/26/improving-microsoft-datagrid-ctp-sorting-performance.aspx>, nous explique
