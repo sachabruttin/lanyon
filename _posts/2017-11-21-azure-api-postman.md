@@ -47,7 +47,7 @@ The Client ID parameter is know on Azure AD as the `Application ID`. Open your r
 
 Go to the Keys settings of the Registered App and create a new Password. Write down the generated key when saving, you won't be able to retrieve it later otherwise.
 
-![Create Key](/public/images/2017-11-21-azure-api-postman/key.PNG)
+![Create Key](/public/images/2017-11-21-azure-api-postman/key.png)
 
 ### Retrieve the URLs
 
