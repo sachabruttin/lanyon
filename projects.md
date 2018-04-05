@@ -6,9 +6,9 @@ redirect_from:
  - /tpg-8
 ---
 
-#  <img src="/public/AzureDocumentDB_color_16x.svg" width="32" height="32" alt="DocumentDB logo"> [DocumentDB Explorer](https://www.bruttin.com/DocumentDbExplorer/){:target"_blank"}
+#  <img src="/public/cosmos-db.svg" width="32" height="32" alt="Cosmos DB logo"> [Cosmos DB Explorer](https://www.bruttin.com/CosmosDbExplorer/){:target"_blank"}
 
-A nice client explorer for Microsoft DocumentDB. It mimics the Data Explorer available on the Azure Portal on the desktop.
+A nice client explorer for Microsoft Cosmos DB. It mimics the Data Explorer available on the Azure Portal on the desktop.
 
 ## Features
 
