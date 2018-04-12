@@ -6,7 +6,7 @@ tags:
     - Azure
 ---
 
-## Serialization Setttings
+## Serialization Settings
 
 Since version 1.15.0, Azure's [CosmosDB](https://azure.microsoft.com/en-us/services/cosmos-db/){:target="_blank"} SDK supports [JsonSerializerSettings](https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_JsonSerializerSettings.htm){:target="_blank"} as a paramater. This gives us the ability to define custom contact serializer and how to handle ```null``` values.
 
