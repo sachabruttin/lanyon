@@ -10,7 +10,7 @@ I am an experienced Team Leader & Solutions Architect with a passion for shippin
 
 # Roles
 
-Lead Consultant Microsoft Productivity, [blue-infinity](<https://www.blue-infinity.com>){:target="_blank"}
+Lead Consultant Microsoft Productivity, [blue-infinity](<https://www.blue-infinity.com>){:target="_blank"}{:rel="noreferrer"}
 
 # Contact me
 

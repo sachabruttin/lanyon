@@ -6,11 +6,11 @@ tags:
     - Jekyll
 ---
 
-Today, I wanted to create an website for my new tool [DocumentDb Explorer](https://www.bruttin.com/DocumentDbExplorer/){:target="_blank"}. As the source code is hosted on [GitHub](https://github.com/sachabruttin/DocumentDbExplorer){:target="_blank"} I wanted to use GitHub Pages to host it also. 
+Today, I wanted to create an website for my new tool [DocumentDb Explorer](https://www.bruttin.com/DocumentDbExplorer/){:target="_blank"}{:rel="noreferrer"}. As the source code is hosted on [GitHub](https://github.com/sachabruttin/DocumentDbExplorer){:target="_blank"}{:rel="noreferrer"} I wanted to use GitHub Pages to host it also. 
 
 ### GitHub Pages
 
-With [GitHub Pages](https://pages.github.com/){:target="_blank"} you can host freely your website from your GitHub repository. You just need to push your static content or Jekyll website to a branch called ```gh-pages``` and they'll publish it on ```<your-username>.github.io/<repo-name>``` a few seconds later.
+With [GitHub Pages](https://pages.github.com/){:target="_blank"}{:rel="noreferrer"} you can host freely your website from your GitHub repository. You just need to push your static content or Jekyll website to a branch called ```gh-pages``` and they'll publish it on ```<your-username>.github.io/<repo-name>``` a few seconds later.
 
 ### Create your gh-pages branch
 
@@ -45,7 +45,7 @@ The _gh-pages_ branch is now pushed to GitHub and the site is available. For lat
 
 Good, now I have two branches and I have to ```git checkout <branch>``` everytime I want to make change to the website or the application. 
 
-My goal is to have a both branches on the same local directory and have each directory linked to his own remote branch. To achieve that, I need to use a feature of git called [worktree](https://git-scm.com/docs/git-worktree){:target="_blank"} that let me manage multiple working trees attached to the same repository.
+My goal is to have a both branches on the same local directory and have each directory linked to his own remote branch. To achieve that, I need to use a feature of git called [worktree](https://git-scm.com/docs/git-worktree){:target="_blank"}{:rel="noreferrer"} that let me manage multiple working trees attached to the same repository.
 
 To create my directory structure correctly I need to execute these commands:
 

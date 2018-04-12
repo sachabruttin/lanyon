@@ -25,7 +25,7 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req)
 
 Try to call the Azure Function from Postman you will receive a `"You do not have permission to view this directory or page."` message with a 401 Unauthorized error code.
 
-This is because we didn't pass an Authentication header with a valid bearer token. As we are using AzureAD, we are supporting OAuth2.0 authentication and Postman is providing a way to retrieve a valid token without leaving the application. Check [https://www.getpostman.com/docs/postman/sending_api_requests/authorization](https://www.getpostman.com/docs/postman/sending_api_requests/authorization){:target="_blank"} for details.
+This is because we didn't pass an Authentication header with a valid bearer token. As we are using AzureAD, we are supporting OAuth2.0 authentication and Postman is providing a way to retrieve a valid token without leaving the application. Check [https://www.getpostman.com/docs/postman/sending_api_requests/authorization](https://www.getpostman.com/docs/postman/sending_api_requests/authorization){:target="_blank"}{:rel="noreferrer"} for details.
 
 So far, so good. But what are the parameters that we should pass to Postman to retrieve a token? First, we will use the `Authorization Code` grant type. When you select this grant type on Postman, you will see that the following parameters are needed:
 
